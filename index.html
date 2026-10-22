@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biar Kito Tau - Portal Informasi & Pengaduan Warga Kota Palembang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <meta http-equiv="refresh" content="0; url=/beranda">
+  <script>
+    // Seamless routing
+    if (window.location.protocol === 'file:') {
+      window.location.replace("stitch_biar_kito_tau_portal_ui/beranda_portal_biar_kito_tau_fullscreen_map_revisi/code.html");
+    } else {
+      window.location.replace("/beranda");
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9ff;
+      color: #00288e;
+    }
+
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid #d3e4fe;
+      border-top-color: #00288e;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    h2 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+      color: #444653;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="spinner"></div>
+  <h2>Biar Kito Tau</h2>
+  <p>Memuat Portal Informasi & Pengaduan Warga Kota Palembang...</p>
+</body>
+
+</html>

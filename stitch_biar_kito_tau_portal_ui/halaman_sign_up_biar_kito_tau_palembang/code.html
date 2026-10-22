@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Akun Baru - Biar Kito Tau Palembang</title>
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased min-h-screen">
+  <div class="flex flex-col lg:flex-row min-h-screen w-full">
+    
+    <!-- SISI KIRI: Visual & Storytelling (50% Layar) -->
+    <div class="relative w-full lg:w-1/2 min-h-[460px] lg:min-h-screen flex flex-col justify-between p-8 sm:p-12 lg:p-16 overflow-hidden bg-slate-900 text-white select-none">
+      <!-- Background Image dengan Dark Gradient Overlay -->
+      <img 
+        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBisoq6j4CGAqVhldAiCPhiAMnvaFXfYfN7wiLs7O7zNX-Kts04I28Ixly1gA6ZngwKcdAm3sFKT95xoXtA_tzuzBFeFhdMvwOfBPTuvZ7N9ay24yy3qJag9cmNP6N0fu-suZO7w8mGqC4wdSjma3JqUOaidH42ecbVhWFodDyPPoHPbTqUKGdIQcA_s9p8XsPmM6vul4_bfmKcSMy-EI5l-0k5F7Rly8cyoMvR7OsnWi3jIYXfXBHG" 
+        alt="LRT Sumatera Selatan di Palembang saat Senja" 
+        class="absolute inset-0 w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
+      />
+      <!-- Gradient Overlays agar teks terbaca kontras & estetik -->
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/60 to-slate-950/80"></div>
+      <div class="absolute inset-0 bg-blue-950/30 backdrop-blur-[1px]"></div>
+
+      <!-- Header Sisi Kiri -->
+      <div class="relative z-10 flex items-center justify-between">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-medium text-slate-200 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          Ekosistem Gotong Royong Digital
+        </div>
+        <a href="#" class="inline-flex items-center gap-2 text-xs font-semibold text-slate-300 hover:text-white transition-colors duration-200 bg-black/20 hover:bg-black/40 px-3 py-1.5 rounded-full border border-white/10 backdrop-blur-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+          </svg>
+          Kembali ke Beranda
+        </a>
+      </div>
+
+      <!-- Bagian Tengah: Tagline & Quote Hero -->
+      <div class="relative z-10 my-auto py-12 max-w-xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-600/30 border border-blue-400/40 text-blue-200 text-xs font-bold tracking-wider uppercase mb-5">
+          Komunitas Wong Kito Peduli
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-[1.15] mb-5">
+          &ldquo;Jadilah Bagian dari Solusi.&rdquo;
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed mb-8 max-w-lg">
+          Bergabunglah dengan ribuan Wong Kito lainnya untuk memantau, melaporkan, dan menjaga kota Palembang bersama-sama.
+        </p>
+
+        <!-- Poin Nilai / Keunggulan Bergabung -->
+        <div class="grid grid-cols-2 gap-4 pt-6 border-t border-white/15">
+          <div class="flex items-start gap-3">
+            <div class="w-9 h-9 rounded-lg bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-blue-300 mt-0.5">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-sm font-semibold text-white">Privasi Terjaga</h4>
+              <p class="text-xs text-slate-300 mt-0.5 leading-snug">Opsi anonimitas penuh saat membuat laporan warga.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="w-9 h-9 rounded-lg bg-white/10 border border-white/15 flex items-center justify-center shrink-0 text-amber-300 mt-0.5">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-sm font-semibold text-white">Respon Cepat</h4>
+              <p class="text-xs text-slate-300 mt-0.5 leading-snug">Terintegrasi langsung ke pemantau lapangan 18 kecamatan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Sisi Kiri (Lokasi & Copyright) -->
+      <div class="relative z-10 flex flex-wrap items-center justify-between text-xs text-slate-300 pt-4 border-t border-white/10 gap-3">
+        <div class="flex items-center gap-1.5 font-medium">
+          <span class="text-rose-400">📍</span>
+          <span>LRT Palembang & Lintasan Kota Senja</span>
+        </div>
+        <div class="text-slate-400">
+          &copy; 2025 Biar Kito Tau
+        </div>
+      </div>
+    </div>
+
+    <!-- SISI KANAN: Formulir Pendaftaran Akun (50% Layar) -->
+    <div class="w-full lg:w-1/2 bg-white flex flex-col justify-between p-8 sm:p-12 lg:p-16 custom-scrollbar overflow-y-auto">
+      
+      <!-- Container Konten Form Terpusat -->
+      <div class="w-full max-w-md mx-auto my-auto py-4">
+        
+        <!-- Header Form: Brand & Judul -->
+        <div class="mb-8">
+          <!-- Logo Biar Kito Tau -->
+          <div class="inline-flex items-center gap-3 mb-6">
+            <div class="w-11 h-11 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <div>
+              <span class="block text-xl font-bold tracking-tight text-slate-900 leading-none">Biar Kito Tau</span>
+              <span class="text-[11px] font-semibold text-blue-600 tracking-wider uppercase mt-1 block">Portal Palembang</span>
+            </div>
+          </div>
+
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-2">
+            Buat Akun Baru
+          </h2>
+          <p class="text-sm text-slate-500 leading-relaxed">
+            Daftarkan diri Anda untuk mulai melaporkan kejadian di sekitar.
+          </p>
+        </div>
+
+        <!-- Formulir Sign Up -->
+        <form class="space-y-4" onsubmit="event.preventDefault();">
+          
+          <!-- Field: Nama Lengkap -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 tracking-wider uppercase mb-1.5">
+              Nama Lengkap
+            </label>
+            <div class="relative">
+              <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                </svg>
+              </div>
+              <input 
+                type="text" 
+                placeholder="Masukkan nama lengkap Anda"
+                class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50/70 border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all duration-200"
+              />
+            </div>
+          </div>
+
+          <!-- Field: Email -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 tracking-wider uppercase mb-1.5">
+              Email
+            </label>
+            <div class="relative">
+              <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"></path>
+                </svg>
+              </div>
+              <input 
+                type="email" 
+                placeholder="contoh@email.com"
+                class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50/70 border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all duration-200"
+              />
+            </div>
+          </div>
+
+          <!-- Grid: Kata Sandi & Konfirmasi Kata Sandi -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            <!-- Field: Kata Sandi -->
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 tracking-wider uppercase mb-1.5">
+                Kata Sandi
+              </label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                  </svg>
+                </div>
+                <input 
+                  type="password" 
+                  id="password-input"
+                  placeholder="Buat kata sandi"
+                  class="w-full pl-10 pr-9 py-2.5 text-sm bg-slate-50/70 border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all duration-200"
+                />
+                <button 
+                  type="button" 
+                  onclick="const input = document.getElementById('password-input'); input.type = input.type === 'password' ? 'text' : 'password';"
+                  class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
+                  aria-label="Lihat kata sandi"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Field: Konfirmasi Kata Sandi -->
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 tracking-wider uppercase mb-1.5">
+                Konfirmasi Sandi
+              </label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                  </svg>
+                </div>
+                <input 
+                  type="password" 
+                  id="confirm-password-input"
+                  placeholder="Ulangi kata sandi"
+                  class="w-full pl-10 pr-9 py-2.5 text-sm bg-slate-50/70 border border-slate-200 rounded-lg text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all duration-200"
+                />
+                <button 
+                  type="button" 
+                  onclick="const input = document.getElementById('confirm-password-input'); input.type = input.type === 'password' ? 'text' : 'password';"
+                  class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
+                  aria-label="Lihat konfirmasi sandi"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Persetujuan Syarat & Kebijakan Privasi (Checkbox) -->
+          <div class="pt-1">
+            <label class="flex items-start gap-2.5 cursor-pointer select-none">
+              <input 
+                type="checkbox" 
+                checked
+                class="mt-1 w-4 h-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 focus:ring-offset-0 transition-colors cursor-pointer"
+              />
+              <span class="text-xs text-slate-600 leading-snug">
+                Saya setuju dengan <a href="#" class="font-semibold text-blue-600 hover:text-blue-800 hover:underline">Syarat & Ketentuan</a> serta <a href="#" class="font-semibold text-blue-600 hover:text-blue-800 hover:underline">Kebijakan Privasi</a>.
+              </span>
+            </label>
+          </div>
+
+          <!-- Tombol Utama: Daftar Sekarang -->
+          <button 
+            type="submit" 
+            class="w-full mt-2 py-3 px-4 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-sm rounded-lg shadow-md shadow-blue-600/25 transition-all duration-200 flex items-center justify-center gap-2 group"
+          >
+            <span>Daftar Sekarang</span>
+            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </button>
+        </form>
+
+        <!-- Divider Pemisah -->
+        <div class="relative my-6">
+          <div class="absolute inset-0 flex items-center">
+            <div class="w-full border-t border-slate-200"></div>
+          </div>
+          <div class="relative flex justify-center text-xs">
+            <span class="px-3 bg-white text-slate-400 font-medium tracking-wide">
+              Atau daftar dengan
+            </span>
+          </div>
+        </div>
+
+        <!-- Social Sign Up: Daftar dengan Google -->
+        <button 
+          type="button" 
+          class="w-full py-2.5 px-4 bg-white hover:bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-lg text-slate-700 font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-3 shadow-sm"
+        >
+          <svg class="w-4 h-4" viewBox="0 0 24 24">
+            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+          </svg>
+          <span>Daftar dengan Google</span>
+        </button>
+
+        <!-- Garansi Keamanan Data -->
+        <div class="mt-4 flex items-center justify-center gap-1.5 text-[11px] text-slate-500">
+          <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+          <span>Data terenkripsi dan privasi Anda terlindungi</span>
+        </div>
+      </div>
+
+      <!-- Footer Form di Bagian Paling Bawah Kanan -->
+      <div class="w-full max-w-md mx-auto pt-6 border-t border-slate-100 text-center">
+        <p class="text-xs sm:text-sm text-slate-600">
+          Sudah punya akun? 
+          <a href="#" class="font-bold text-blue-600 hover:text-blue-800 transition-colors ml-1">Masuk di sini</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

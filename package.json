@@ -1,0 +1,18 @@
+{
+  "name": "biar-kito-tau-portal-palembang",
+  "version": "1.0.0",
+  "description": "Portal Informasi & Pengaduan Warga Kota Palembang (Biar Kito Tau)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "palembang",
+    "civic-portal",
+    "biar-kito-tau",
+    "wong-kito"
+  ],
+  "author": "Pemerintah & Warga Kota Palembang",
+  "license": "ISC"
+}
