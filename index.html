@@ -9,13 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
     rel="stylesheet">
-  <meta http-equiv="refresh" content="0; url=/beranda">
   <script>
-    // Seamless routing
-    if (window.location.protocol === 'file:') {
-      window.location.replace("stitch_biar_kito_tau_portal_ui/beranda_portal_biar_kito_tau_fullscreen_map_revisi/code.html");
-    } else {
+    // Routing: file:// atau GitHub Pages → pakai path relatif langsung
+    var host = window.location.hostname;
+    var isLocalServer = host === 'localhost' || host === '127.0.0.1';
+    if (isLocalServer) {
+      // Local Node.js server — gunakan clean route
       window.location.replace("/beranda");
+    } else {
+      // GitHub Pages atau buka file langsung — gunakan path file relatif
+      window.location.replace("stitch_biar_kito_tau_portal_ui/beranda_portal_biar_kito_tau_fullscreen_map_revisi/code.html");
     }
   </script>
   <style>
